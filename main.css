@@ -33,3 +33,8 @@ body {
     justify-items: center;
     flex-direction: column;
 }
+
+.poke {
+    width: 275px;
+    height: 275px;
+}
