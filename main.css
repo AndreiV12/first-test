@@ -1,11 +1,35 @@
 body {
-background: #114357;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .white {
     color: white;
     text-align: center;
     padding-top: 50px;
+}
+
+.title {
+    height: 100px;
+}
+
+.button {
+    height: 75px;
+    margin: 30px;
+}
+
+#car {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 30px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
