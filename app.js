@@ -1,4 +1,3 @@
-let count = 77
 
 // let , const ,  var 
 
@@ -24,5 +23,10 @@ next.onclick = function(){
     render()
     }
 }
+
+const max = 649
+
+let count = Math.floor(Math.random() * max) + 1
+
 
 render()
